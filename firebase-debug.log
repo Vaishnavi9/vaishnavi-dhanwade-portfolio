@@ -1,0 +1,36 @@
+[debug] [2023-02-11T09:43:40.227Z] ----------------------------------------------------------------------
+[debug] [2023-02-11T09:43:40.232Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vaish\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2023-02-11T09:43:40.232Z] CLI Version:   9.14.0
+[debug] [2023-02-11T09:43:40.233Z] Platform:      win32
+[debug] [2023-02-11T09:43:40.233Z] Node Version:  v14.17.3
+[debug] [2023-02-11T09:43:40.247Z] Time:          Sat Feb 11 2023 15:13:40 GMT+0530 (India Standard Time)
+[debug] [2023-02-11T09:43:40.248Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-11T09:43:40.253Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-02-11T09:43:40.307Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-11T09:43:40.308Z] > authorizing via signed-in user (vaishnavidhanwade.vd@gmail.com)
+[debug] [2023-02-11T09:43:40.308Z] [iam] checking project vaishnavi-portfolio-2023 for permissions ["firebase.projects.get"]
+[debug] [2023-02-11T09:43:40.311Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2023-02-11T09:43:40.312Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2023-02-11T09:43:40.662Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Sat, 11 Feb 2023 09:43:45 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2023-02-11T09:43:40.686Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/vaishnavi-portfolio-2023:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2023-02-11T09:43:41.149Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-02-11T09:43:41.149Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-02-11T09:43:42.371Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 11 Feb 2023 09:43:46 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1339","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2023-02-11T09:43:42.374Z] > refreshing access token with scopes: []
+[debug] [2023-02-11T09:43:42.375Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2023-02-11T09:43:43.292Z] <<< HTTP RESPONSE 200 {"date":"Sat, 11 Feb 2023 09:43:47 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2023-02-11T09:43:43.314Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/vaishnavi-portfolio-2023 [none]
+[debug] [2023-02-11T09:43:43.919Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/vaishnavi-portfolio-2023 200
+[debug] [2023-02-11T09:43:43.919Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/vaishnavi-portfolio-2023 {"projectId":"vaishnavi-portfolio-2023","projectNumber":"1060611331451","displayName":"vaishnavi-portfolio-2023","name":"projects/vaishnavi-portfolio-2023","resources":{"hostingSite":"vaishnavi-portfolio-2023"},"state":"ACTIVE","etag":"1_0c8eb65e-4fd2-4919-b458-02afd1f7630b"}
+[debug] [2023-02-11T09:43:43.921Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/vaishnavi-portfolio-2023/sites 
+[debug] [2023-02-11T09:43:45.449Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/vaishnavi-portfolio-2023/sites 200
+[debug] [2023-02-11T09:43:45.449Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/vaishnavi-portfolio-2023/sites {"sites":[{"name":"projects/vaishnavi-portfolio-2023/sites/vaishnavi-portfolio-2023","defaultUrl":"https://vaishnavi-portfolio-2023.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-02-11T09:43:45.450Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/vaishnavi-portfolio-2023/webApps/-/config [none]
+[debug] [2023-02-11T09:43:46.673Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/vaishnavi-portfolio-2023/webApps/-/config 200
+[debug] [2023-02-11T09:43:46.673Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/vaishnavi-portfolio-2023/webApps/-/config {"projectId":"vaishnavi-portfolio-2023","storageBucket":"vaishnavi-portfolio-2023.appspot.com","apiKey":"AIzaSyBeD9egOPzB3XUi4jNYEUI_wAgFtpOTwas","authDomain":"vaishnavi-portfolio-2023.firebaseapp.com","messagingSenderId":"1060611331451"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}

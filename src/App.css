@@ -1,9 +1,9 @@
 .App {
   display: flex;
   font-family: "IBM Plex Sana Thai Looped", sans-serif;
-  color: white;
+  /* color: white;
   background: linear-gradient(179deg, #176eb5, #d545d7);
-  text-shadow: 1px 0px 2px #8dc4f0;
+  text-shadow: 1px 0px 2px #8dc4f0; */
 }
 .body_container {
   flex: 1;
@@ -26,16 +26,13 @@
   flex-direction: column;
   padding: 15px;
   margin: 10px;
-  background: rgba(255, 255, 255, 0.3);
+  background-color: #293846;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(5.5px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .lines_icon {
   display: flex;
-  align-self: flex-end;
-  border-radius: 5px;
 }
 
 .profile {
@@ -54,11 +51,13 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  color: white;
 }
 .group {
   display: flex;
   flex-direction: column;
   width: 100%;
+  color: white;
 }
 h3 {
   font-size: 1rem;

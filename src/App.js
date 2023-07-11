@@ -85,10 +85,10 @@ function App() {
             onClick={handleToggle}
             className="lines_icon"
           >
-            <TocRounded />
+            <TocRounded htmlColor="white" />
           </motion.div>
           {/* profile */}
-          <motion.div
+          {/* <motion.div
             layout
             initial={`${open}`}
             animate={`${open}`}
@@ -108,7 +108,7 @@ function App() {
               src="https://ae01.alicdn.com/kf/H5be6a0fa5f584a8a8420da2a7d4bc809r/RBRARE-Polaroid-Men-s-Goggle-Driving-Sunglasses-Men-Classic-Low-Profile-Sun-Glasses-For-Men-High.jpg"
               alt="profile_img"
             />
-          </motion.div>
+          </motion.div> */}
           {/* groups */}
           <div className="groups">
             {/* group 1 */}
@@ -118,8 +118,14 @@ function App() {
               >
                 ANALYTICS
               </motion.h3>
-              <Item icon={<DashboardRounded />} name="Dashboard" />
-              <Item icon={<BarChartRounded />} name="Performance" />
+              <Item
+                icon={<DashboardRounded htmlColor="white" />}
+                name="Dashboard"
+              />
+              <Item
+                icon={<BarChartRounded htmlColor="white" />}
+                name="Performance"
+              />
             </div>
           </div>
           {/* group 2 */}
@@ -129,9 +135,18 @@ function App() {
             >
               Content
             </motion.h3>
-            <Item icon={<AttachMoneyRounded />} name="Sales" />
-            <Item icon={<AssignmentTurnedInRounded />} name="Checklist" />{" "}
-            <Item icon={<AccountCircleRounded />} name="Customers" />
+            <Item
+              icon={<AttachMoneyRounded htmlColor="white" />}
+              name="Sales"
+            />
+            <Item
+              icon={<AssignmentTurnedInRounded htmlColor="white" />}
+              name="Checklist"
+            />{" "}
+            <Item
+              icon={<AccountCircleRounded htmlColor="white" />}
+              name="Customers"
+            />
           </div>
           {/* group 3 */}
           <div className="group">
@@ -140,8 +155,14 @@ function App() {
             >
               CUSTOMIZATION
             </motion.h3>
-            <Item icon={<SettingsRemoteRounded />} name="Segments" />
-            <Item icon={<ColorLensRounded />} name="Themems" />
+            <Item
+              icon={<SettingsRemoteRounded htmlColor="white" />}
+              name="Segments"
+            />
+            <Item
+              icon={<ColorLensRounded htmlColor="white" />}
+              name="Themems"
+            />
           </div>
         </motion.div>
       </motion.div>

@@ -14,13 +14,9 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer-container">
-      <section className="footer-subscription">
-        <p className="footer-subscription-heading">
-          Join our newsletter to receive updates about our latest deals
-        </p>
-        <p className="footer-subscription-text">
-          You can unsubscribe at any time
-        </p>
+      {/* <section className="footer-subscription">
+        <p className="footer-subscription-heading">Lorem ipsum</p>
+        <p className="footer-subscription-text">Lorem ipsum </p>
         <div className="input-areas">
           <form>
             <input
@@ -29,11 +25,11 @@ function Footer() {
               placeholder="Your Email"
               className="footer-input"
             />
-            <Button buttonStyle="btn--outline">Subscribe</Button>
+            <Button buttonStyle="btn--outline">Join</Button>
           </form>
         </div>
-      </section>
-      <div className="footer-links">
+      </section> */}
+      {/* <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>About Us</h2>
@@ -70,15 +66,15 @@ function Footer() {
             <Link to="/">Terms of Service</Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              <MdFingerprint className="company-logo" /> Vaishnavi
+              <MdFingerprint className="company-logo" /> Unknown
             </Link>
           </div>
-          <small className="website-rights">Vaishnavi © 2023</small>
+          <small className="website-rights">Unknown © 2023</small>
           <div className="social-icons">
             <Link
               to="/"
